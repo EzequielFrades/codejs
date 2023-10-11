@@ -1,0 +1,124 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Cambiar el fondo a negro */
+    color: #fff; /* Cambiar el color del texto a blanco */
+}
+
+header {
+    background-color: #222; /* Cambiar el color de fondo del encabezado */
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu {
+    text-align: right;
+    padding: 10px;
+    background-color: #007bff;
+}
+
+.menu button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        text-align: center;
+    }
+
+    .menu button {
+        display: block;
+        margin: 5px auto;
+    }
+}
+
+/* Estilo para los productos */
+
+.producto {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.producto img {
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    margin-bottom: 10px; /* Agrega espacio entre la imagen y el contenido */
+}
+
+.producto .precio {
+    font-size: 1.2rem; /* Tamaño de fuente para el precio */
+    margin: 10px 0; /* Espacio entre el precio y los botones */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el buscador */
+
+.buscador {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#buscador {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* Estilos para el carrito */
+
+#carrito {
+    background-color: #131313;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+#total {
+    font-weight: bold;
+}
+
+/* Estilos para las notificaciones SweetAlert */
+
+.swal2-popup {
+    font-size: 1.2rem;
+}

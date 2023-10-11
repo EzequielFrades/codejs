@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Productos</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="/index.html">Home</a>
+            <a href="./Productos.html">Productos</a>
+            <a href="/html/Carrito.html">Carrito</a>
+            <a href="/html/Contacto.html">Contacto</a>
+        </div>
+        <h1>Productos disponibles</h1>
+        <div class="buscador">
+            <input type="text" id="buscador" placeholder="Buscar productos">
+            <button onclick="buscarProducto()">Buscar</button>
+        </div>        
+    </header>
+    <main>
+        <section id="productos">
+            <article class="producto">
+                <img src="/img/chocolatecofler.jpg" alt="Chocolate">
+                <h2>Chocolate</h2>
+                <p>Precio: $2.50</p>
+                <button onclick="agregarAlCarrito('Chocolate')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/chicle.jpg" alt="Chicle">
+                <h2>Chicle</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Chicle')">Agregar al carrito</button>
+            </article> <article class="producto">
+                <img src="/img/caramelos.jpg" alt="Caramelo">
+                <h2>Caramelo</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Caramelo')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/topline-rojo.jpg" alt="ChicleRojo">
+                <h2>Chicle Cherry</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('ChicleRojo')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/topline-menta.jpg" alt="ChicleVerde">
+                <h2>Chicle Menta</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('ChicleVerde ')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/topline-mandarina.jpg" alt="ChicleNaranja">
+                <h2>Chicle Naranja</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('ChicleNaranja')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/Chocolate-Blanco-Aireado-Cofler-27g-2-33795.webp" alt="ChocolateBlanco">
+                <h2>Chocolate Blanco</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('ChocolateBlanco')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/ChocolateAlmendras.jpg" alt="ChocolateAlmendras">
+                <h2>Chocolate con Almendras</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('ChocolateAlmendras')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/coca cola.jfif" alt="CocaCola">
+                <h2>Coca Cola </h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('CocaCola')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/coca1l.jpg" alt="CocaCola1">
+                <h2>Coca Cola 1L</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('CocaCola1')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/sprite500.jpg" alt="Sprite">
+                <h2>Sprite</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Sprite')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/sprite1l.webp" alt="Sprite1">
+                <h2>Sprite 1L</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Sprite1')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/fanta500.webp" alt="Fanta">
+                <h2>Fanta</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Fanta')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/fanta1l.png" alt="Fanta1">
+                <h2>Fanta 1L</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Fanta1')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/pepsi500.jpg" alt="Pepsi">
+                <h2>Pepsi</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Pepsi')">Agregar al carrito</button>
+            </article>
+            <article class="producto">
+                <img src="/img/pepsi1l.webp" alt="Pepsi1">
+                <h2>Pepsi 1L</h2>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Pepsi1')">Agregar al carrito</button>
+            </article>
+            <!-- Repetir el bloque para cada golosina -->
+        </section>
+    </main>
+    <script src="/js/scrips.js"></script>
+</body>
+</html>
